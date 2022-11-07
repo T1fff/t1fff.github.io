@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/about/about-style.css">
+    <link rel="stylesheet" href="/contact/contact-style.css">
+    <title>Contact Me</title>
+</head>
+<body>
+    
+    <div class="overlay first"></div>
+    <div class="overlay second"></div>
+    <div class="overlay third"></div>
+
+    <header class="header-1">
+        <nav class="nav bd-grid">
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a class="nav_link" href="/index.html">Home</a></li>
+                    <li class="nav_item"><a class="nav_link" href="/about.html">About</a></li>
+                    <li class="nav_item"><a class="nav_link" href="/projects.html">My projects</a></li>
+                    <li class="nav_item"><a class="nav_link" href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="nav_toggle" id="nav-toggle">
+                <ion-icon name = "menu"></ion-icon>
+            </div>
+
+
+        </nav>
+    </header>
+
+    <main class="main-1 bd-grid">
+        <div class="home">
+        <h1 class="title anime-text">Contact</h1>
+
+        <div class="container">               
+            <form id="my-form" action="https://formspree.io/f/mwkzwgoe" method="POST" class="form">
+                <div class="label">
+                    <label>Email:</label>
+                </div>
+                <div class="input">
+                    <input type="email" name="email" />
+                </div>
+                <div class="label">
+                    <label>Message:</label>
+                </div>
+                <div class="input message">
+                    <input type="text" name="message" />
+                </div>
+                <button id="my-form-button">Submit</button>
+                <p id="my-form-status"></p>
+              </form>
+   
+               
+        </div>
+
+        <div class="home_social">
+            <div class="div-social">
+                <p class="social-info"><ion-icon name="mail" class="home_social-icon"></ion-icon>tiffanyashleymendoza@gmail.com</p>
+            </div>
+            <div class="div-social">
+                <p class="social-info"><ion-icon name="logo-github" class="home_social-icon"></ion-icon><a href="https://github.com/T1fff">T1fff</a></p>
+                
+            </div>
+                       
+            
+
+        </div>
+
+       
+
+    </main>
+
+    
+    <!--Scripts-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="/contact/contact.js"></script>
+</body>
+</html>

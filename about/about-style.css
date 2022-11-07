@@ -1,0 +1,159 @@
+:root {
+    --black-color: rgb(13, 1, 32);
+    --first-color: #a453f0;
+}
+
+
+.home {
+    grid-template-rows: max-content 250px;
+    text-align: center;
+}
+
+.title {
+    align-content: flex-start; 
+    font-size: 2.3rem;
+    margin: 0 1rem;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.card {
+    width: 50%;
+    margin: 1rem;
+}
+
+.card-container {
+    padding: 1rem;
+    border: 2px solid ;
+    border-radius: 15px;
+    height: 23rem;
+}
+
+.icon {
+    margin: 0;
+    padding: 1rem 0;
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+.institutionName {
+    font-weight: 500;
+    font-size: var(--normal-font-size);
+    margin: 0;
+    text-align: left;
+}
+
+.programName {
+    margin: 0;
+}
+
+.working {
+    width: 4rem;
+}
+
+.info-img {
+    margin-top: 0px;
+    max-width: 4rem;
+}
+
+.info-p {
+    font-size: 0.7rem;
+    margin: 0;
+
+}
+
+.card-info{
+    display: flex;
+    padding: 0 1rem 1rem 1rem ;
+}
+
+
+.institutionName {
+    margin-left: 1rem;
+}
+
+.place {
+    font-weight: 400;
+    margin: 0;
+}
+
+.container-skills {
+    text-align: left;
+    margin-left: 2rem;
+}
+
+
+.skills p {
+    font-weight: 400;
+    margin: 0.5rem 0;
+}
+
+
+.skills span {
+    font-weight: 700;
+    color: var(--first-color);
+}
+
+.info-3 {
+    padding-bottom: 1.45rem;
+}
+
+@media screen and (max-width: 768px) {
+   .main-1 {
+        display: flex;
+   } 
+
+   .home {
+        flex-direction: column;
+        margin: 0 auto;
+        align-content: space-evenly;
+   }
+
+   .title {
+    font-size: 2rem;
+    text-align: center;
+   }
+
+   .container {
+    flex-direction: column;
+   }
+
+   .card {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 1rem;
+   }
+
+   .card-container{
+    height: auto;
+   }
+}
+
+@media screen and (max-width: 1100px) {
+    .card-container{
+        height: 27rem;
+    }
+
+    p {
+        font-size: var(--small-font-size);
+        font-weight: 400;
+        margin: 0.3rem 0;
+    }
+
+    .title {
+        font-weight: 700;
+    }
+}
+   

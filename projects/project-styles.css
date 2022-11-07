@@ -1,0 +1,22 @@
+.container {
+    width: 100%;
+}
+
+.card {
+    height: 15rem;
+    
+}
+
+a {
+    color: #f5f5f5;
+}
+
+.icon-page {
+    margin: 2rem;
+    font-size: 12rem;
+}
+
+.card:hover, a:hover {
+    color: var(--first-color);
+    transform: scale(1.1);
+}
