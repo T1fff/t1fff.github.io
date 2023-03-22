@@ -1,18 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 :root {
     --black-color: rgb(13, 1, 32);
     --first-color: #a453f0;
 }
 
-
-.home {
-    grid-template-rows: max-content 250px;
-    text-align: center;
+body {
+    overflow-y: scroll;
 }
 
-.title {
-    align-content: flex-start; 
-    font-size: 2.3rem;
-    margin: 0 1rem;
+
+.home {
+    margin-top: 2rem;
+    grid-template-rows: max-content 250px;
+    text-align: center;
+    
+}
+
+.title { 
+    font-size: 2.3rem;;
 }
 
 .container {
@@ -24,7 +29,8 @@
 
 .card {
     width: 50%;
-    margin: 1rem;
+    margin: 0 1rem 1rem 1rem;
+    background: none;
 }
 
 .card-container {
@@ -32,6 +38,7 @@
     border: 2px solid ;
     border-radius: 15px;
     height: 23rem;
+    
 }
 
 .icon {
@@ -57,6 +64,8 @@ p {
 
 .programName {
     margin: 0;
+    font-weight: 600;
+    
 }
 
 .working {
@@ -77,6 +86,7 @@ p {
 .card-info{
     display: flex;
     padding: 0 1rem 1rem 1rem ;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -85,13 +95,14 @@ p {
 }
 
 .place {
-    font-weight: 400;
     margin: 0;
+    font-weight: 400;
 }
 
 .container-skills {
     text-align: left;
     margin-left: 2rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -110,20 +121,31 @@ p {
     padding-bottom: 1.45rem;
 }
 
+.progress{
+    margin-top: 0.5rem;
+    width: 64px;
+}
+
+.bg-info{
+    background-color: #a453f0 !important;
+}
+
 @media screen and (max-width: 768px) {
    .main-1 {
         display: flex;
    } 
 
    .home {
+        display: flex;
         flex-direction: column;
-        margin: 0 auto;
-        align-content: space-evenly;
+        margin: 5rem auto;
+       
    }
 
    .title {
     font-size: 2rem;
     text-align: center;
+    margin-bottom: 1rem;
    }
 
    .container {

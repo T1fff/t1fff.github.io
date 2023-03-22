@@ -11,12 +11,29 @@ a {
     color: #f5f5f5;
 }
 
+
+.card:hover, a:hover {
+    color: var(--first-color);
+    transform: scale(1.1);
+}
+
+.card-container{
+    height: 20rem;
+}
+
 .icon-page {
     margin: 2rem;
     font-size: 12rem;
 }
 
-.card:hover, a:hover {
-    color: var(--first-color);
-    transform: scale(1.1);
+@media screen and (max-width: 768px) {
+    .card {
+        height: 19rem;
+        margin: 0 0 4rem 0;
+    }
+
+    .icon-page {
+        margin: 2rem 1rem;
+        font-size: 12rem;
+    }
 }
