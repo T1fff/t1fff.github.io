@@ -345,7 +345,7 @@ img {
     z-index: var(--z-modal);
 }
 
-/*.first {
+.first {
     background-color: var(--first-color);
 }
 
@@ -357,5 +357,5 @@ img {
 .third {
     background-color: var(--first-color);
     left: 66.6%;
-}*/
+}
 
